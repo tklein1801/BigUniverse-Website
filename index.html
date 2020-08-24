@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta's -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="id=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="biguniverse big universe adri bloober adribloober ivinator ivinatorhd adrian bloober iven coder32 coder niri niri81 81 anronck game bewerben developer backend frontend frontend-peedeveloper gesucht backend-devloper
+netzwerktechnik administrator pre-alpha release">
+  	<meta name="author" content="AdriBloober">
+
+    <!-- Title -->
+    <title>BigUniverse | Startseite</title>
+
+    <!-- Icon -->
+    <link rel="icon" href="assets/images/icon.png">
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="assets/css/master.css">
+    <link rel="stylesheet" href="assets/css/mobile-master.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+    <script src="assets/js/sweetalert.min.js"></script>
+    <!-- jQuery v3.3.1 -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132790521-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-132790521-2');
+    </script>
+
+
+
+  </head>
+  <body>
+<div id="googlean_js"></div>
+
+  <script>
+    var cookiesActivated = false;
+    if(Cookies.get("iscookies") == 'true'){
+      cookiesActivated = true;
+    }
+
+        if(Cookies.get('isdiscord') != 'true'){
+            if (cookiesActivated) {Cookies.set('isdiscord', 'true', {expires: 45});}
+            Swal.fire({
+                title: 'Wir haben Discord!',
+                html: 'Komm jetzt auf unseren Discord Server: <a href="https://invite.gg/BigUniverse">https://invite.gg/BigUniverse</a><br>' +
+                    'Wir würden uns sehr freuen, wenn du unserem Server beitritts :D',
+                imageUrl: 'https://discordapp.com/assets/fc0b01fe10a0b8c602fb0106d8189d9b.png',
+                imageWidth: 800,
+                imageHeight: 172,
+                imageAlt: 'Discord logo',
+                animation: false,
+                customClass: {
+                    popup: 'animated tada'
+                }
+            })
+        } else if(Cookies.get('isdulli') != 'true'){
+          if (cookiesActivated) {Cookies.set('isdulli', 'true', {expires: 45});}
+            Swal.fire({
+                title: 'Danke an DulliAG',
+                text: 'Hi, schau gerne mal bei dulliag.de vorbei, denn ohne sie wäre unsere Website garnicht möglich geworden!',
+                type: 'info',
+                footer: '<a href="http://dulliag.de">DulliAg.de</a>'
+            })
+      }
+
+    if(cookiesActivated) {
+        var imported = document.createElement('script');
+        imported.async = true;
+        imported.src = "https://www.googletagmanager.com/gtag/js?id=UA-132790521-2";
+        imported.type = "text/javascript";
+
+        document.getElementById("googlean_js").appendChild(imported);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-132790521-2');
+    }
+
+    </script>
+
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light nav-bg" id="nav">
+      <span class="navbar-brand mb-0 h1">
+        <img id="brand-icon" src="assets/images/icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        BigUniverse
+      </span>
+      <button id="test" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="menu-btn">
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+        </div><!-- ./menu-btn -->
+      </button><!-- ./hamburger -->
+
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link current" href="#">Home</a>
+          </li><!-- ./nav-item -->
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Über uns</a>
+          </li><!-- ./nav-item -->
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Unser Team</a>
+          </li><!-- ./nav-item -->
+          <li class="nav-item">
+            <a class="nav-link" href="#apply">Bewerben</a>
+          </li><!-- ./nav-item -->
+          <li class="nav-item">
+            <a class="nav-link" href="#timeline">Timeline</a>
+          </li><!-- ./nav-item -->
+          <li class="nav-item">
+            <a class="nav-link" href="mailto: kontakt@biguniverse.de">Kontakiere uns</a>
+          </li><!-- ./nav-item -->
+        </ul><!-- ./navbar-nav -->
+      </div><!-- ./navbar-collapse -->
+    </nav><!-- ./navbar -->
+
+  <div class="container" id="landingpage">
+  </div>
+
+    <div class="page-content">
+      <div class="project-progress section">
+        <div class="container">
+          <h2 class="title">Fortschritt</h2>
+          
+          <div class="item">
+            <p class="text">Pre-Alpha</p>
+            <div class="progress" data-toggle="tooltip" data-placement="top" title="Fortschritt 37%">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 37%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div><!-- ./progress -->
+          </div><!-- ./item-->
+
+          <div class="item">
+            <p class="text">Alpha</p>
+            <div class="progress" data-toggle="tooltip" data-placement="top" title="Fortschritt 19%">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" style="width: 19%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div><!-- ./progress -->
+          </div><!-- ./item-->
+
+          <div class="item">
+            <p class="text">Open Beta</p>
+            <div class="progress" data-toggle="tooltip" data-placement="top" title="Fortschritt 12%">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 12%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div><!-- ./progress -->
+          </div><!-- ./item-->
+
+          <div class="item">
+            <p class="text">Spiel</p>
+            <div class="progress" data-toggle="tooltip" data-placement="top" title="Fortschritt 7%">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 7%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div><!-- ./progress -->
+          </div><!-- ./item-->
+
+        </div><!-- ./container -->
+      </div><!-- ./project-progress -->
+
+      <div id="about" class="about section">
+        <div class="container">
+          <h2 class="title">Was ist BigUniverse?</h2>
+
+          <p class="text">
+            BigUniverse ist ein großes Weltraumspiel, in dem man Gegner besiegen, Allianzen gründen, mit Freunden in die Schlacht ziehen und sich neue Raumschiffe kaufen kann. Es gibt sehr viele Raumschiffe, die alle unterschiedliche Eigenschaften haben.
+             Das Spiel behinthaltet außerdem noch ein Item-System, womit man seine Raumschiffe upgraden kann.
+          </p>
+        </div><!-- ./container -->
+      </div><!-- ./about -->
+
+      <div id="why-us" class="why-us section">
+      <div class="container">
+        <h2 class="title">Wieso wir?</h2>
+
+        <div class="row d-flex justify-content-center">
+          <div class="card">
+            <p class="icon">
+              <i class="fas fa-users"></i>
+            </p>
+            <p class="title">Schöne Teamatmosphäre</p>
+              <p class="text">
+                Wenn du bei uns im Team bist, kannst du nur von Hilfbereitschafft und einer guten Teamatmosphäre schwärmen.
+              </p>
+            </div><!-- ./card -->
+
+            <div class="card">
+              <p class="icon">
+                <i class="fas fa-hand-holding-usd"></i>
+              </p>
+              <p class="title">Gewinnbeteiligung</p>
+              <p class="text">
+                Als Mitwirkender des Projektes wirst du prozentual am Gewinn beteiligt. Wie hoch der Prozentsatz ausfällt kommt auf die Anstellung an.
+              </p>
+            </div><!-- ./card -->
+
+            <div class="card">
+              <p class="icon">
+                <i class="far fa-file-code"></i>
+              </p>
+              <p class="title">Saubere Dokumentation</p>
+              <p class="text">
+                Wir arbeiten schnell und sauber zugleich! Unsere Applikationen sind sauber dokumentiert.
+              </p>
+            </div><!-- ./card -->
+
+          </div><!-- ./row -->
+        </div><!-- ./container -->
+      </div><!-- ./why-us -->
+
+      <div id="team" class="team section">
+        <div class="container">
+          <h2 class="title">Unser Team</h2>
+
+          <div id="team" class="row dflex justify-content-center">
+              <div class="item">
+                <img class="rounded-circle" src="https://biguniverse.de/team/ivinator.png" alt="Profile image is missing">
+                <h5 id="name">Ivinator</h5>
+                <p id="role">Frontend Developer</p>
+              </div><!-- ./item -->
+
+              <div class="item">
+                <img class="rounded-circle" src="https://biguniverse.de/team/adribloober.jpg" alt="Profile image is missing">
+                <h5 id="name">AdriBloober</h5>
+                <p id="role">Backend & Web-Developer</p>
+              </div><!-- ./item -->
+
+              <div class="item">
+                <img class="rounded-circle" src="https://biguniverse.de/team/coder32.png" alt="Profile image is missing">
+                <h5 id="name">Coder³²</h5>
+                <p id="role">Designer</p>
+              </div><!-- ./item -->
+            </div><!-- ./d-flex -->
+        </div><!-- ./container -->
+      </div><!-- ./team -->
+
+      <div id="apply" class="apply section">
+        <div class="container">
+          <h2 class="title">Freie Stellen</h2>
+
+          <div class="row d-flex justify-content-center">
+            <div class="item">
+              <h3 class="title">
+                Frontend Developer
+              </h3>
+              
+              <p class="text">
+                Das sind die Vorraussetzungen:<br>
+                Mindestalter: 14<br>
+                Erfahrung im allgemeinen Programmieren<br>
+                geistiges Alter<br>
+                Erweiterte Kenntnisse in Unity und C#<br>
+                Sowie grundlegende Kenntnisse mit Git<br>
+                Apps: Discord und ein relativ gutes Mikrofon
+              </p>
+
+              <a href="mailto: kontakt@biguniverse.de" class="btn btn-outline-primary">Jetzt Bewerben!</a>
+            </div><!-- ./item -->
+
+            <div class="item">
+              <h3 class="title">
+                Backend Developer
+              </h3>
+              
+              <p class="text">
+                Du möchtest dich also als Backend-Developer bewerben?<br>
+                Das sind die Vorraussetzungen:<br>
+                Mindestalter: 14<br>
+                Erfahrung im allgemeinen Programmieren<br>
+                geistiges Alter<br>
+                Erweiterte Kenntnisse in Python und dem Framework Flask, sowie Kenntnisse im Bereich Netzwerktechnik<br>
+                Außerdem sind Kenntnisse in Git gefordert<br>
+                Apps: Discord und sowie ein gutes Mikrofon
+              </p>
+
+              <a href="mailto: kontakt@biguniverse.de" class="btn btn-outline-primary">Jetzt Bewerben!</a>
+            </div><!-- ./item -->
+
+            <div class="item">
+              <h3 class="title">
+                Designer
+              </h3>
+              
+              <p class="text">
+                Du möchtest dich also als Designer bewerben?<br>
+                Das sind die Vorraussetzungen:<br>
+                Mindestalter: 14<br>
+                Kreativität, sowie Erfahrung in GIMP oder dem Zeichenprogramm deiner Wahl<br>
+                geistiges Alter<br>
+                Es werden Pixler und allgemeine Designer gesucht<br>
+                Apps: Discord, sowie ein relativ gutes Mikrofon
+              </p>
+
+              <a href="mailto: kontakt@biguniverse.de" class="btn btn-outline-primary">Jetzt Bewerben!</a>
+            </div><!-- ./item -->
+
+            <div class="item">
+              <h3 class="title">
+                Tester
+              </h3>
+              
+              <p class="text">
+                Du möchtest dich also als Tester bewerben?<br>
+                Das sind die Vorraussetzungen:<br>
+                Mindestalter: 14<br>
+                viel Geduld<br>
+                viel Spaß<br>
+                Apps: Discord und ein relativ gutes Mikrofon
+              </p>
+
+              <a href="mailto: kontakt@biguniverse.de" class="btn btn-outline-primary">Jetzt Bewerben!</a>
+            </div><!-- ./item -->
+          </div><!-- ./row -->
+        </div><!-- ./container -->
+      </div><!-- ./apply -->
+
+      <div id="timeline" class="timeline section" style="font-size: 96.5%;">
+        <div class="container">
+          <h2 class="title">Projekt Timeline</h2>
+
+          <div class="container mt-5 mb-5">
+            <div class="row">
+              <div class="col-md-6 offset-md-3">
+                <ul class="timeline">
+                  <li>
+                    <a target="_blank" href="#">Die Idee</a>
+                    <a href="#" class="float-right">Januar, 2018</a>
+                    <p>
+                      Die beiden zukünftigen Teamleiter und Hauptentwickler, AdriBloober und Ivinator essen etwas. Sie reden darüber, wie toll doch ein Weltraumspiel wäre, in welchem man herumfliegen, sich warpen, Gegner und KIs angreifen kann und viel mehr machen kann. Das beste wäre aber noch, wenn es von ihnen selber entwickelt wäre. In den Anfängen wurde noch darüber spekuliert, ob man das Spiel etwa in der Programmiersprache Python schreiben sollte, diese Idee wurde jedoch schnell verworfen, da Python zu langsam für so ein aufwändiges Spiel wäre. Die Idee gerät für eine etwas längere Zeit erst mal in Vergessenheit, wird aber dennoch irgendwann wieder aufgeschnappt.
+                    </p>
+                  </li><!-- ./item -->
+                  <li>
+                    <a href="#">Die Umsetzung</a>
+                    <a href="#" class="float-right">April, 2019</a>
+                    <p>
+                      Die beiden Teamleiter reden wieder über die Idee die sie hatten. Ivinator kann mittlerweile mit der Spieleengine "Unity" umgehen, was ein großer Fortschritt ist, da das Spiel nun schnell entwickelt werden kann und dann auch noch richtig laufen sollte. Jetzt stellt sich nur noch die Frage, wer die ganzen Designs für das Spiel machen sollte? Was wäre denn ein Spiel, wenn es nichts anzeigt? Text-Adventures sind doch schon seit den 90ern ausgestorben? An der Stelle erinnert sich AdriBloober an jemanden, dem er vor kurzer Zeit im Internet begegnet ist. Diese Person ist unser derzeitiger Head-Designer coder32. Er macht alle Designs, und das Problem ist schon gelöst. Zwar ist coder32 kein professioneller Designer, jedoch reichen seine Grafiken allemal für dieses Projekt, und außerdem fing er an, zu designen, ohne zu wissen, ob das Projekt überhaupt fertiggestellt wird.
+                    </p>
+                  </li><!-- ./item -->
+                  <li>
+                    <a href="#">Es nimmt Gestalt an</a>
+                    <a href="#" class="float-right">Mai, 2019</a>
+                    <p>
+                      Das Projekt wird von allen drei Mitwirkenden mit Spaß verfolgt und weiterentwickelt. Mittlerweile können die Raumschiffe schon schießen, sich drehen und vieles mehr. Was auf den ersten Blick trivial wirkt, ist im Hintergrund recht komplex und viel Arbeit. Man sollte nie unterschätzen, wie aufwändig es ist, ein Spiel zu entwickeln.
+                    </p>
+                  </li><!-- ./item -->
+                  <li>
+                    <a href="#">Die Startlöcher und das Grundgerüst</a>
+                    <a href="#" class="float-right">Juli, 2019</a>
+                    <p>
+                      Die Pre-Alpha v1.0 ist kurz vor dem Release! Es ist noch nicht gerade viel möglich, jedoch hat das Team schon einiges erledigt. Der Server ist schon gemietet, alles wurde aufgesetzt, das eigentliche Spiel hat sein Grundgerüst und die Designs sind mit in das Spiel eingebaut und das Hauptmenü funktioniert. Es ist nicht mehr viel Zeit, bis der Release der ersten, kostenlosen Version ansteht. Wird das Spiel beliebt oder wird es wie tausende andere in den hintersten Ecken des Computerspielefriedhofes vor sich hinsieden und mit wenigen aktiven Spielern untergehen?
+                    </p>
+                  </li><!-- ./item -->
+                </ul><!-- ./timeline -->
+              </div><!-- ./col-md-6 -->
+            </div><!-- ./row -->
+          </div><!-- ./container -->
+        </div><!-- ./container -->
+      </div><!-- ./timeline -->
+
+      <div class="footer">
+        <div class="top section">
+          <div class="container-fluid">
+            <h3 class="title">Impressum</h3>
+              <a href="datenschuterklaerung.html">Datenschutzerklärung</a>
+            </p>
+          </div><!-- ./container-fluid -->
+        </div><!-- ./top -->
+
+        <div class="bottom">
+          <div class="container-fluid">
+            <p class="text">Helped by <a href="https://dulliag.de" class="text-link">DulliAG</a></p>
+            <p class="text">© 2019 BigUniverse</p>
+          </div><!-- ./container-fluid -->
+        </div><!-- ./bottom -->
+      </div><!-- ./footer -->
+    </div><!-- ./page-container -->
+
+    <!-- JavaScripts -->
+    <!-- PopperJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!-- BootstrapMinJS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- ToggleMenuJS -->
+    <script src="assets/js/toggleMenu.js"></script>   
+    <!-- Run Tooltips -->
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+    <!-- Run SmoothScroll -->
+    <script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({ scrollTop: target.offset().top -50 }, 500);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+  <script>
+    if(!cookiesActivated) {
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#237afc"
+          },
+          "button": {
+            "background": "#fff",
+            "text": "#237afc"
+          }
+        },
+        "position": "bottom-right",
+        "content": {
+          "message": "Diese Website nutzt Cookies",
+          "dismiss": "Okay"
+        },
+        "onStatusChange": function (status) {
+          cookiesActivated = true;
+          Cookies.set('iscookies', 'true');
+
+          var imported = document.createElement('script');
+          imported.async = true;
+          imported.src = "//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/2306bde21a3705ac8b46ad7361035abd35078b47b84d6686e70a35b13c452cc0.js";
+          imported.type = "text/javascript";
+
+          document.getElementById("userlike_js").appendChild(imported);
+        }
+      });
+    }
+    if(cookiesActivated) {
+      var imported = document.createElement('script');
+      imported.async = true;
+      imported.src = "//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/2306bde21a3705ac8b46ad7361035abd35078b47b84d6686e70a35b13c452cc0.js";
+      imported.type = "text/javascript";
+
+      document.getElementById("userlike_js").appendChild(imported);
+    }
+  </script>
+  <div id="userlike_js"></div>
+  </body>
+</html>

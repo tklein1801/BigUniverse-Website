@@ -1,0 +1,19 @@
+/* Smartphone Design */
+@media(max-width: 520px) {
+  /* Navbar */
+  .navbar {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* Page Content */
+  .page-content {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+/* Tablet Design */
+@media(min-width: 520px) and (max-width: 860px) {
+
+}
